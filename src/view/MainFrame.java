@@ -2,10 +2,6 @@ package view;
 
 import model.Tempat;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -196,7 +192,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void btnRestartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRestartActionPerformed
         // TODO add your handling code here:
-        maps.restartLevel();
+        maps.restart();
         txtPerintah.setText("");
         txtOutput.setText("");
     }//GEN-LAST:event_btnRestartActionPerformed

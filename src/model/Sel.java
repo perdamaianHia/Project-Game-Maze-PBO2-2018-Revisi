@@ -1,5 +1,9 @@
 package model;
 
+/**
+ *
+ * @author 175314109 AND 175314115
+ */
 import java.awt.Image;
 
 public class Sel {

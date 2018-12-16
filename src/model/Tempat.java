@@ -4,7 +4,6 @@ package model;
  *
  * @author 175314109 AND 175314115
  */
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.io.File;
@@ -28,6 +27,7 @@ public class Tempat extends JPanel {
 
     private File Alamatpeta;
     private ArrayList Allperintah = new ArrayList();
+
     public Tempat(File file) {
         bacaPeta(file);
     }
@@ -216,7 +216,7 @@ public class Tempat extends JPanel {
         }
     }
 
-    public void restartLevel() {
+    public void restart() {
         Allperintah.clear();
         arrGate.clear();
         arrWall.clear();
