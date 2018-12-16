@@ -1,5 +1,10 @@
 package model;
 
+/**
+ *
+ * @author 175314109 AND 175314115
+ */
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.io.File;
@@ -23,9 +28,6 @@ public class Tempat extends JPanel {
 
     private File Alamatpeta;
     private ArrayList Allperintah = new ArrayList();
-    private ArrayList<String> simpan = new ArrayList<String>();
-    private ArrayList<String> undo = new ArrayList<String>();
-
     public Tempat(File file) {
         bacaPeta(file);
     }
